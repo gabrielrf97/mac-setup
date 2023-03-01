@@ -27,6 +27,8 @@ brew install --cask insomnia;
 brew install zsh;
 brew install docker;
 brew install --cask iterm2;
+brew install xcodegen;
+brew install mint;
 
 echo "Installing IDE and Editors"
 brew install --cask visual-studio-code;
@@ -35,7 +37,7 @@ code --install-extension Dart-Code.dart-code      --force
 code --install-extension Dart-Code.flutter        --force
 code --install-extension Kasik96.swift            --force
 code --install-extension ms-python.python         --force
-brew install --cask emacs;
+brew install --cask obsidian;
 
 echo "Installing softwares"
 brew install --cask discord;
