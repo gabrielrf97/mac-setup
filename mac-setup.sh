@@ -19,6 +19,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 echo "Installing languages"
 brew install --cask flutter;
 brew install clojure;
+brew install cocoapods;
 
 echo "Installing programming tools"
 brew install lcov;
@@ -43,7 +44,7 @@ brew install --cask anki;
 brew install --cask notion;
 brew install --cask zoom;
 brew install --cask loom;
-#write code to execute all installed .pkg
+brew install --cask google-chrome;
 
 echo "Installing setup tools"
 brew install --cask karabiner-elements
