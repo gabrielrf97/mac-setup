@@ -1,4 +1,4 @@
-USER_PATH=""
+iUSER_PATH=""
 readonly USER_PATH
 USER_PASSWORD = ""
 readonly USER_PASSWORD
@@ -53,3 +53,5 @@ brew install --cask google-chrome;
 echo "Installing setup tools"
 brew install --cask karabiner-elements
 
+echo "Auth required tools"
+sudo brew install --cask sf-symbols;
