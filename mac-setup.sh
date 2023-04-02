@@ -29,6 +29,7 @@ brew install docker;
 brew install --cask iterm2;
 brew install xcodegen;
 brew install mint;
+brew install maven;
 brew install --cask dbeaver-community;
 
 echo "Installing IDE and Editors"
