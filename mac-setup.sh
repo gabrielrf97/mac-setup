@@ -19,7 +19,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 echo "Installing languages"
 brew install --cask flutter;
 brew install clojure;
-brew install cocoapods;
+brew install openjdk;
 
 echo "Installing programming tools"
 brew install lcov;
@@ -28,11 +28,13 @@ brew install zsh;
 brew install docker;
 brew install --cask iterm2;
 brew install xcodegen;
-brew install mint;
 brew install maven;
 brew install --cask dbeaver-community;
+brew install --cask intellij-idea-ce;
+brew install --cask postman;
 
 echo "Installing IDE and Editors"
+brew install --cask intellij-idea-ce;
 brew install --cask visual-studio-code;
 code --install-extension betterthantomorrow.calva --force
 code --install-extension Dart-Code.dart-code      --force
@@ -50,9 +52,6 @@ brew install --cask notion;
 brew install --cask zoom;
 brew install --cask loom;
 brew install --cask google-chrome;
-
-echo "Installing setup tools"
-brew install --cask karabiner-elements
 
 echo "Auth required tools"
 sudo brew install --cask sf-symbols;
