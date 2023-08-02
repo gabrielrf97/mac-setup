@@ -22,6 +22,7 @@ brew install clojure;
 brew install openjdk;
 
 echo "Installing programming tools"
+brew install leiningen
 brew install lcov;
 brew install --cask insomnia;
 brew install zsh;
